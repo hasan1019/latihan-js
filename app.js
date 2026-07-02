@@ -1,7 +1,14 @@
-let age = prompt("how is ur day", 'im good');
+// let value = false;
+// alert(typeof value);
 
-alert(`You said: ${age}`);
+// value = String(value);
+// alert(typeof value);
 
-let isBoos = confirm ("are you the bos ?");
+// value = Number(value);
+// alert(typeof value);
 
-alert(isBoos);
+alert( Boolean(1) ); // true
+alert( Boolean(0) ); // false
+
+alert( Boolean("hello") ); // true
+alert( Boolean("") ); // false

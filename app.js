@@ -1,8 +1,7 @@
-let massage = "hello gais!";
-let me = "my name is";
-let you = "who are you ?";
+let age = prompt("how is ur day", 'im good');
 
-let us = massage;
+alert(`You said: ${age}`);
 
-massage = "ini aku bajak";
-alert(massage + " " + me + " " + you + "," + us);
+let isBoos = confirm ("are you the bos ?");
+
+alert(isBoos);

@@ -1,16 +1,24 @@
-let a = 6;
+// const userName = 'John';
 
-switch (a) {
-  case 4:
-    alert('Right!');
-    break;
+// function showMessage() {
+//   let userName = "Bob"; // (1) changed the outer variable
 
-  case 3: // (*) grouped two cases
-  case 5:
-    alert('Wrong!');
-    alert("Why don't you take a math class?");
-    break;
+//   let message = 'Hello, ' + userName;
+//   alert(message);
+// }
 
-  default:
-    alert('The result is strange. Really.');
+// showMessage();
+
+// alert( userName );
+
+// function checkAge(age = prompt('How old are you?')){
+//     return(age > 18) ? alert(true) : confirm('Did parents allow you?');
+//     alert(age);
+// }
+
+function checkAge(age = prompt('How old are you?')){
+    return(age > 18) || confirm('Did parents allow you?');
 }
+
+let result = checkAge();
+alert("Hasil Akhir: " + result);

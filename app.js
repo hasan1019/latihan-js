@@ -1,14 +1,13 @@
-// let value = false;
-// alert(typeof value);
+let massage;
+let age = prompt("enter your age :");
 
-// value = String(value);
-// alert(typeof value);
+if (age < 18){
+    massage = "you are not allowed";
+} else if (age > 18){
+    massage = "you are to old";
+}else{
+    massage = "you may in";
+}
 
-// value = Number(value);
-// alert(typeof value);
-
-alert( Boolean(1) ); // true
-alert( Boolean(0) ); // false
-
-alert( Boolean("hello") ); // true
-alert( Boolean("") ); // false
+alert(age);
+alert(massage);
